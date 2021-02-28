@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: gainsboro;
+    color: #4F4846;
+}
+header {
+    position: fixed;
+    background-color: darkgreen;
+    border-bottom: 10px solid tan;
+    width: 100%;
+    height: 60px;
+    text-align: right;   
+}
+li {
+    display: inline;ß
+    padding: 20px;
+    text-decoration: none;
+}
+a {
+    color: seashell;
+    text-decoration: none;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    line-height: 60px;
+    background-color: darkgreen;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4F4846 ;
+    color: seashell;
+}
+figure {
+    margin-bottom: 40px;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 5px solid tan;
+    background-color: navajowhite;
+}
+form {
+    margin: 0;
+    width: 500px;
+    padding: 10px;
+    border: 6px solid wheat;
+    border-radius: 15px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+input,
+textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 2px solid #4F4846;
+}
+textarea {
+    vertical-align: top;
+    height: 60px;
+}
+button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: seashell;
+}
+img {
+    display: inline-block;
+}
+
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
